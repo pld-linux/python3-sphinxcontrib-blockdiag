@@ -6,7 +6,7 @@ Summary:	Sphinx "blockdiag" extension
 Summary(pl.UTF-8):	Rozszerzenie "blockdiag" dla Sphinksa
 Name:		python3-sphinxcontrib-blockdiag
 Version:	2.0.0
-Release:	4
+Release:	5
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sphinxcontrib-blockdiag/
