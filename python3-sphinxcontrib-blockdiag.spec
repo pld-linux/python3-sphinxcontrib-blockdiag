@@ -5,15 +5,15 @@
 Summary:	Sphinx "blockdiag" extension
 Summary(pl.UTF-8):	Rozszerzenie "blockdiag" dla Sphinksa
 Name:		python3-sphinxcontrib-blockdiag
-Version:	2.0.0
-Release:	8
+Version:	3.0.0
+Release:	1
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sphinxcontrib-blockdiag/
 Source0:	https://files.pythonhosted.org/packages/source/s/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-%{version}.tar.gz
-# Source0-md5:	0c8acbb74f2d92235ec917ba69298f03
+# Source0-md5:	c390fc0a52cb3b2adedfc26e62018259
 URL:		https://pypi.org/project/sphinxcontrib-blockdiag/
-BuildRequires:	python3-modules >= 1:3.5
+BuildRequires:	python3-modules >= 1:3.7
 BuildRequires:	python3-setuptools
 %if %{with tests}
 BuildRequires:	python3-Sphinx >= 2.0
@@ -22,7 +22,7 @@ BuildRequires:	python3-sphinx_testing
 %endif
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
-Requires:	python3-modules >= 1:3.5
+Requires:	python3-modules >= 1:3.7
 Requires:	python3-sphinxcontrib
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
